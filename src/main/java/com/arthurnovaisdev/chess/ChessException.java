@@ -1,6 +1,8 @@
 package com.arthurnovaisdev.chess;
 
-public class ChessException extends RuntimeException {
+import com.arthurnovaisdev.boardgame.BoardException;
+
+public class ChessException extends BoardException {
     public ChessException(String message) {
         super(message);
     }
